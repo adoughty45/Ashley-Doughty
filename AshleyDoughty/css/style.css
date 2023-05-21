@@ -1,0 +1,40 @@
+.header {
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    background-color: #1A5F7A;
+   
+  }
+
+  .body {
+    text-align: center;
+    padding: 5px;
+    background-color: #57C5B6;
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper{
+    min-height: 100%;
+    margin-bottom: -215px;
+  }
+
+  .push {
+    height: 215px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1A5F7A;
+    color: white;
+    height: 275px;
+    text-shadow: 3px 3px 3px black;
+   
+  }
+
+  @media (max-width: 770px) {
+    .row {
+          align-items: center;
+          gap: 2rem;
+  }
+}
